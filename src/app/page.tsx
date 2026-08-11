@@ -237,6 +237,12 @@ export default function Home() {
             <a href="#matrix" className="hover:text-indigo-500 transition-colors">
               Cheat Sheet
             </a>
+            <a href="/about" className="hover:text-indigo-500 transition-colors">
+              About
+            </a>
+            <a href="/contact" className="hover:text-indigo-500 transition-colors">
+              Contact
+            </a>
           </nav>
 
           <div className="flex items-center gap-3">
