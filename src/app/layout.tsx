@@ -1,19 +1,27 @@
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Sorting Algorithms Simulator",
+export const metadata: Metadata = {
+  title: "Sorting Algorithms Simulator | AlgoVision",
   description:
-    "A premium animated sorting simulator for learning quick sort, merge sort, bubble sort, heap sort, and more.",
+    "An interactive 3D animated sorting simulator for learning quick sort, merge sort, bubble sort, heap sort, and more.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html
-      lang="en"
-      className="h-full antialiased"
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className="h-full antialiased scroll-smooth">
+      <body className="min-h-full flex flex-col transition-colors duration-300">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
