@@ -9,6 +9,9 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: "Sorting Algorithms Simulator | AlgoVision",
+  verification: {
+    google: "google-site-verification: Om0vzQb5DtNKUi-MrMnXSV_mDvGeVdxV3P-lIG4MmQ0"
+  },
   description:
     "An interactive 3D animated sorting simulator for learning quick sort, merge sort, bubble sort, heap sort, and more.",
   icons: {
