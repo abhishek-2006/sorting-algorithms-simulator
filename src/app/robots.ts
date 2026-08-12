@@ -2,7 +2,10 @@ import { MetadataRoute } from "next";
 
 
 export default function robots(): MetadataRoute.Robots {
-    const baseUrl = "https://sorting-algorithms-simulator.vercel.app";
+    const baseUrls = [
+        "https://sorting-algorithms-simulator.vercel.app",
+        "https://algosortify.vercel.app",
+    ];
 
     return{
         rules: [
@@ -22,6 +25,6 @@ export default function robots(): MetadataRoute.Robots {
                 disallow: "/api",
             }
         ],
-        sitemap: `${baseUrl}/sitemap.xml`,
+        sitemap: `${baseUrls}/sitemap.xml`,
     }
 }

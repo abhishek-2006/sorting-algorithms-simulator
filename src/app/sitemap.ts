@@ -14,7 +14,10 @@ function getLastModified(filePath: string) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://sorting-algorithms-simulator.vercel.app'
+    const baseUrls = [
+        'https://sorting-algorithms-simulator.vercel.app',
+        'https://algosortify.vercel.app'
+    ];
   
     const routes = [
         { url: '/', filePath: 'src/app/page.tsx', changeFrequency: 'daily' as const, priority: 1.0 },
@@ -23,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ];
 
   return routes.map((route) => ({
-    url: `${baseUrl}${route.url}`,
+    url: `${baseUrls}${route.url}`,
     lastModified: getLastModified(route.filePath),
     changeFrequency: route.changeFrequency,
     priority: route.priority,
