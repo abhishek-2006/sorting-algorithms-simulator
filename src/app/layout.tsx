@@ -8,9 +8,9 @@ export const viewport: Viewport = {
 };
 
 const siteConfig = {
-  title: "Sorting Algorithms Simulator | AlgoVision",
+  title: "Sorting Algorithms Simulator | AlgoSortify",
   description: "An interactive 3D animated sorting simulator for learning quick sort, merge sort, bubble sort, heap sort, and more.",
-  url: "https://algovision.vercel.app",
+  url: "https://algosortify.vercel.app",
   alternateUrl: "https://sorting-algorithms-simulator.vercel.app",
   keywords: [
     "sorting algorithms",
@@ -41,6 +41,8 @@ const siteConfig = {
     "sorting algorithm visualization",
     "sorting algorithm simulator",
     "algovision",
+    "algosortify",
+    "AlgoSortify",
     "algorithm simulator",
   ]
 };
@@ -66,7 +68,7 @@ export const metadata: Metadata = {
     title: siteConfig.title,
     description: siteConfig.description,
     url: siteConfig.url,
-    siteName: "AlgoVision",
+    siteName: "AlgoSortify",
     type: "website",
     locale: "en_US",
   },

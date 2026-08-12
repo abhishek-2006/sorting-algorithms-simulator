@@ -54,13 +54,13 @@ export default function AboutPage() {
           <Link href="/" className="flex items-center gap-3 group">
             <Image
               src="/favicon.ico"
-              alt="AlgoVision Logo"
+              alt="AlgoSortify Logo"
               width={36}
               height={36}
               className="rounded-xl shadow-md transition-transform group-hover:scale-110"
             />
             <span className="text-xl font-extrabold tracking-tight">
-              Algo<span className="text-gradient">Vision</span>
+              Algo<span className="text-gradient">Sortify</span>
             </span>
           </Link>
 
@@ -91,7 +91,7 @@ export default function AboutPage() {
             Demystifying algorithms through <span className="text-gradient">3D visual clarity</span>.
           </h1>
           <p className="text-base md:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-            AlgoVision is an interactive sorting algorithms simulator built to turn abstract algorithmic logic into an intuitive, step-by-step visual learning experience.
+            AlgoSortify is an interactive sorting algorithms simulator built to turn abstract algorithmic logic into an intuitive, step-by-step visual learning experience.
           </p>
         </div>
 
@@ -123,7 +123,7 @@ export default function AboutPage() {
               Understanding sorting algorithms purely through pseudocode or static diagrams can be challenging. By animating element swaps, pivot choices, and split-merge steps in real-time, users can build a mental model of how data structures behave under different conditions.
             </p>
             <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-              Whether you are preparing for technical coding interviews, teaching computer science fundamentals, or exploring algorithm efficiencies, AlgoVision provides an accessible sandbox environment.
+              Whether you are preparing for technical coding interviews, teaching computer science fundamentals, or exploring algorithm efficiencies, AlgoSortify provides an accessible sandbox environment.
             </p>
           </div>
 
@@ -172,8 +172,8 @@ export default function AboutPage() {
       <footer className="relative z-10 border-t border-slate-500/10 py-6 text-center text-xs text-slate-500">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 md:px-12">
           <div className="flex items-center gap-2">
-            <Image src="/favicon.ico" alt="AlgoVision" width={20} height={20} className="rounded" />
-            <span className="font-semibold text-slate-900 dark:text-slate-100">AlgoVision</span>
+            <Image src="/favicon.ico" alt="AlgoSortify" width={20} height={20} className="rounded" />
+            <span className="font-semibold text-slate-900 dark:text-slate-100">AlgoSortify</span>
           </div>
           <p>&copy; {new Date().getFullYear()} Sorting Algorithms Simulator</p>
         </div>

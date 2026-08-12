@@ -27,13 +27,13 @@ export default function ContactPage() {
           <Link href="/" className="flex items-center gap-3 group">
             <Image
               src="/favicon.ico"
-              alt="AlgoVision Logo"
+              alt="AlgoSortify Logo"
               width={36}
               height={36}
               className="rounded-xl shadow-md transition-transform group-hover:scale-110"
             />
             <span className="text-xl font-extrabold tracking-tight">
-              Algo<span className="text-gradient">Vision</span>
+              Algo<span className="text-gradient">Sortify</span>
             </span>
           </Link>
 
@@ -64,7 +64,7 @@ export default function ContactPage() {
             We&apos;d love to hear from <span className="text-gradient">you</span>.
           </h1>
           <p className="text-base md:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-            Have questions, feature suggestions, or feedback regarding the Sorting Algorithms Simulator? Reach out and help us make AlgoVision better for everyone.
+            Have questions, feature suggestions, or feedback regarding the Sorting Algorithms Simulator? Reach out and help us make AlgoSortify better for everyone.
           </p>
         </div>
 
@@ -101,12 +101,12 @@ export default function ContactPage() {
             <div className="p-4 rounded-2xl bg-slate-100/80 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/60 text-xs text-slate-500 dark:text-slate-400 flex items-center gap-3">
               <Image
                 src="/favicon.ico"
-                alt="AlgoVision"
+                alt="AlgoSortify Logo"
                 width={24}
                 height={24}
                 className="rounded-md"
               />
-              <span>AlgoVision Simulator &bull; Constant visual improvements.</span>
+              <span>AlgoSortify Simulator &bull; Constant visual improvements.</span>
             </div>
           </div>
 
@@ -197,8 +197,8 @@ export default function ContactPage() {
       <footer className="relative z-10 border-t border-slate-500/10 py-6 text-center text-xs text-slate-500">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 md:px-12">
           <div className="flex items-center gap-2">
-            <Image src="/favicon.ico" alt="AlgoVision" width={20} height={20} className="rounded" />
-            <span className="font-semibold text-slate-900 dark:text-slate-100">AlgoVision</span>
+            <Image src="/favicon.ico" alt="AlgoSortify" width={20} height={20} className="rounded" />
+            <span className="font-semibold text-slate-900 dark:text-slate-100">AlgoSortify</span>
           </div>
           <p>&copy; {new Date().getFullYear()} Sorting Algorithms Simulator</p>
         </div>

@@ -217,13 +217,13 @@ export default function Home() {
           <Link href="/" className="flex items-center gap-3 group">
             <Image
               src="/favicon.ico"
-              alt="AlgoVision Logo"
+              alt="AlgoSortify Logo"
               width={36}
               height={36}
               className="rounded-xl shadow-md transition-transform group-hover:scale-110"
             />
             <span className="text-xl font-extrabold tracking-tight">
-              Algo<span className="text-gradient">Vision</span>
+              Algo<span className="text-gradient">Sortify</span>
             </span>
           </Link>
 
@@ -553,8 +553,8 @@ export default function Home() {
       <footer className="border-t border-slate-500/10 py-8 text-center text-xs text-slate-500 z-10">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 md:px-12">
           <div className="flex items-center gap-2">
-            <Image src="/favicon.ico" alt="AlgoVision Logo" width={20} height={20} className="rounded" />
-            <span className="font-semibold text-slate-900 dark:text-slate-100">AlgoVision</span>
+            <Image src="/favicon.ico" alt="AlgoSortify Logo" width={20} height={20} className="rounded" />
+            <span className="font-semibold text-slate-900 dark:text-slate-100">AlgoSortify</span>
           </div>
           <p>&copy; {new Date().getFullYear()} Sorting Algorithms Simulator</p>
         </div>
