@@ -14,6 +14,10 @@ const siteConfig = {
   alternateUrl: "https://sorting-algorithms-simulator.vercel.app",
   keywords: [
     "sorting algorithms",
+    "abhishek shah",
+    "abhishek shah projects",
+    "algorithms",
+    "algorithm solver",
     "sorting visualizer",
     "sorting simulator",
     "quick sort",

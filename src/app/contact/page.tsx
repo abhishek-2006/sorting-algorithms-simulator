@@ -93,7 +93,7 @@ export default function ContactPage() {
                 href="mailto:shahabhishek051@gmail.com"
                 className="group flex items-center justify-between p-4 rounded-2xl border border-indigo-500/20 bg-indigo-500/5 hover:bg-indigo-500/10 transition-all text-sm font-semibold text-indigo-600 dark:text-indigo-400 break-all"
               >
-                <span>shahabhishek051@gmail.com</span>
+                <span>{process.env.NEXT_PUBLIC_EMAIL_USER}</span>
                 <Send className="w-4 h-4 shrink-0 transition-transform group-hover:translate-x-1" />
               </a>
             </div>
